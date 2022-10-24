@@ -1,5 +1,6 @@
 #include "connection.h"
 #include "Accuser.h"
+
 Connection::Connection()
 {
 
