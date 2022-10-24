@@ -28,12 +28,14 @@ SOURCES += \
     Accuser.cpp \
         main.cpp \
         mainwindow.cpp \
-    connection.cpp
+    connection.cpp \
+    tuto.cpp
 
 HEADERS += \
     Accuser.h \
         mainwindow.h \
-    connection.h
+    connection.h \
+    tuto.h
 
 FORMS += \
         mainwindow.ui
