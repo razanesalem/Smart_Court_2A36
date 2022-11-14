@@ -1,5 +1,5 @@
 #include "smtp.h"
-//mail
+//mai
 Smtp::Smtp( const QString &user, const QString &pass, const QString &host, int port, int timeout )
 {
     socket = new QSslSocket(this);

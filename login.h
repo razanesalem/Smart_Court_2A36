@@ -2,6 +2,7 @@
 #define LOGIN_H
 
 #include <QDialog>
+#include "gestion_des_em.h"
 
 namespace Ui {
 class login;
@@ -22,6 +23,7 @@ private slots:
 
 private:
     Ui::login *ui;
+    gestion_des_em m;
 };
 
 #endif // LOGIN_H

@@ -33,23 +33,20 @@ CONFIG += c++11
 SOURCES += \
     arduino.cpp \
     employer.cpp \
-    login.cpp \
-        main.cpp \
-        mainwindow.cpp \
+    gestion_des_em.cpp \
     connection.cpp \
+    main.cpp \
     smtp.cpp
 
 HEADERS += \
     arduino.h \
     employer.h \
-    login.h \
-        mainwindow.h \
+    gestion_des_em.h \
     connection.h \
     smtp.h
 
 FORMS += \
-        login.ui \
-        mainwindow.ui
+        gestion_des_em.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
