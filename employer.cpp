@@ -1,7 +1,7 @@
 #include "employer.h"
 #include<QtDebug>
 #include<QObject>
-
+//fonction
 Employer::Employer(int CIN,int Nbanne,QDate date_nes ,QString nom,QString prenom,QString poste)
 {   this->CIN=CIN;
     this->Nbanne=Nbanne;
