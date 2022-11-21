@@ -4,6 +4,8 @@
 #include <QString>
 #include <QSqlQueryModel>
 #include <QSqlQuery>
+//version final
+
 class Employer
 {
     int CIN;
