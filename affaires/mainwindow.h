@@ -6,11 +6,11 @@
 #include <QPainter>
 #include <QPrinter>
 #include <QPrintPreviewDialog>
-
 #include <QPdfWriter>
 #include <QDesktopServices>
 #include <QPrintPreviewDialog>
 #include <QUrl>
+#include "arduino.h"
 
 namespace Ui {
 class MainWindow;
@@ -50,14 +50,37 @@ private slots:
 
     void on_lineEdit_textChanged(const QString &arg1);
 
+   //arduino
+    /*void on_comportComboBox_currentIndexChanged(const QString &arg1);
+
+    void on_baudRateComboBox_currentIndexChanged(const QString &arg1);
+
+    void on_baudRateComboBox_currentIndexChanged(int index);*/
 
 
+    void on_portStatusButton_clicked();
 
+    void on_disconnectButton_clicked();
+
+    void on_connectButton_clicked();
+
+    void on_envoyertexte_clicked();
+
+    void on_supprimertexte_clicked();
+
+    void on_clearLCDButton_clicked();
+
+    void on_fontsizeSpinBox_valueChanged(int arg1);
+
+public slots:
+    void readArduino();
 
 private:
     Ui::MainWindow *ui;
 
     Affaire A;
+    QByteArray data; // variable contenant les données reçues
+    Arduino a; // objet temporaire
 };
 
 #endif // MAINWINDOW_H

@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     bool test=c.createconnect();
 
     MainWindow w;
-
+    w.setWindowTitle("SMART COURT");
     if(test)
     {
         w.show();

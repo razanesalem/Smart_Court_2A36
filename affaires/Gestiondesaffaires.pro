@@ -10,6 +10,7 @@ QT       += multimedia multimediawidgets
 QT       +=widgets
 QT +=svg
 QT +=printsupport
+QT       += serialport
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = Atelier_Connexion
@@ -30,6 +31,7 @@ CONFIG += c++11
 
 SOURCES += \
     affaire.cpp \
+    arduino.cpp \
         main.cpp \
         mainwindow.cpp \
     connection.cpp \
@@ -40,6 +42,7 @@ SOURCES += \
 
 HEADERS += \
     affaire.h \
+    arduino.h \
         mainwindow.h \
     connection.h \
     qrcode.h \

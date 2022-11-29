@@ -16,6 +16,17 @@
 #include <QtCharts/QPieSeries>
 #include <QtCharts/QPieSlice>
 #include <QColor>
+#include <QtSerialPort/QSerialPort>
+#include <QtSerialPort/QSerialPortInfo>
+#include <QDebug>
+#include <QString>
+#include <QList>
+#include <QStringList>
+#include <QListIterator>
+#include <QMessageBox>
+#include <QRegExp>
+#include <QFont>
+#include "arduino.h"
 
 
 #include "qrcode.h"
@@ -40,7 +51,26 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->comboBoxS->setModel(A.afficher());
     ui->comboBoxM->setModel(A.afficher());
 
-}
+
+    //arduino
+    int ret=a.connect_arduino(); // lancer la connexion à arduino
+    switch(ret){
+    case(0):qDebug()<< "arduino is available and connected to : "<< a.getarduino_port_name();
+        break;
+    case(1):qDebug() << "arduino is available but not connected to :" << a.getarduino_port_name();
+       break;
+    case(-1):qDebug() << "arduino is not available";
+    }
+    connect(a.getserial(), SIGNAL(readyRead()), this, SLOT(readArduino()));
+
+    ui->disconnectButton->setEnabled(false);
+    // permet de lancer
+    //le slot update_label suite à la reception du signal readyRead (reception des données).
+    }
+
+
+
+
 
 MainWindow::~MainWindow()
 {
@@ -433,4 +463,113 @@ void MainWindow::on_lineEdit_textChanged(const QString &arg1)
 {
     ui->tableView->setModel(A.recherche(arg1));
 }
+
+//----------------------------------------------------arduino
+/*
+void MainWindow::on_comportComboBox_currentIndexChanged(const QString &arg1)
+{
+    a.setarduino_port_name(arg1);
+    qDebug() << a.getarduino_port_name();
+}
+
+void MainWindow::on_baudRateComboBox_currentIndexChanged(const QString &arg1)
+{
+    a.setcurrentBaudRate((qint32)arg1).toInt();
+    qDebug() << a.currentBaudRate;
+
+}
+
+void MainWindow::on_baudRateComboBox_currentIndexChanged(int index)
+{
+    a.setcurrentBaudRate(index);
+    qDebug() << a.getcurrentBaudRate();
+
+}*/
+
+void MainWindow::on_portStatusButton_clicked()
+{
+    QSerialPortInfo info(a.getarduino_port_name());
+
+    QString portInfo = "arduino_uno_vendor: " + info.manufacturer() + "\n arduino_uno_producy: " + info.description();
+
+    QMessageBox::information(this, "PORT Information",portInfo);
+
+}
+
+void MainWindow::on_disconnectButton_clicked()
+{
+    a.getserial()->clear();
+    a.getserial()->close();
+    if (!a.getserial()->isOpen()) QMessageBox::information(this, "Port is closed", "Connected device is closed successfully");
+    ui->connectButton->setEnabled(true);
+    ui->disconnectButton->setEnabled(false);
+}
+
+void MainWindow::on_connectButton_clicked()
+{
+    a.getserial()->setPortName(a.getarduino_port_name());
+
+
+    if (a.getserial()->open(QIODevice::ReadWrite)){
+          a.getserial()->setBaudRate(QSerialPort::Baud9600);
+          a.getserial()->setDataBits(QSerialPort::Data8);
+          a.getserial()->setParity(QSerialPort::NoParity);
+          a.getserial()->setStopBits(QSerialPort::OneStop);
+            // Skipping hw/sw control
+          a.getserial()->setFlowControl(QSerialPort::NoFlowControl);
+            QSerialPortInfo info(a.getarduino_port_name());
+            QMessageBox::information(this, "Connection successful", "Successfully connected to : " + info.description());
+    } else {
+        QMessageBox::warning(this, "Connection Failed", "Retry");
+    }
+
+    ui->connectButton->setEnabled(false);
+    ui->disconnectButton->setEnabled(true);
+
+
+}
+
+void MainWindow::on_envoyertexte_clicked()
+{
+    //If no arduino is detected it shows an warning
+    if (!a.getserial()->isOpen()) QMessageBox::information(this, "No Arduino Detected", "Please connect an Arduino and click connect from Connection Manager");
+
+    else {
+        QByteArray text = ui->messageTextEdit->toPlainText().toLatin1();
+        a.getserial()->write(text);
+         }
+
+}
+
+void MainWindow::on_supprimertexte_clicked()
+{
+     ui->messageTextEdit->clear();
+}
+
+void MainWindow::on_clearLCDButton_clicked()
+{    if (a.getserial()->isOpen()) a.getserial()->write("#");
+    else QMessageBox::information(this, "No Arduino Detected", "Connect an Arduino and Click connect button on Connection Manager");
+}
+
+
+
+void MainWindow::on_fontsizeSpinBox_valueChanged(int arg1)
+{
+      ui->messageTextEdit->setFontPointSize(arg1);
+}
+
+void MainWindow::readArduino(){
+
+    if (a.getserial()->canReadLine())
+        data = a.getserial()->readLine();
+        //data = data.remove(QRegExp("[\\n\\t\\r]"));
+    if (data.contains("X")){
+        qDebug() << data << "\n";
+        ui->messageTextEdit->setText(data);
+    }
+
+}
+
+
+
 
