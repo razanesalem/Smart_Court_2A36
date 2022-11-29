@@ -19,7 +19,7 @@ public:     //méthodes de la classe Arduino
     QByteArray read_from_arduino();  //recevoir des données de la carte Arduino
     QSerialPort* getserial();   // accesseur
     QString getarduino_port_name();
-    QSqlQuery  cherchercode(QString code);
+    QString  cherchercode(QString code);
     QString chercher(QString code);
 private:
 QSerialPort * serial; //Cet objet rassemble des informations (vitesse, bits de données, etc.)

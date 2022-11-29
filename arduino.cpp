@@ -71,7 +71,7 @@ int Arduino::close_arduino()
     }
  }
 
- /*QString Arduino::cherchercode(QString code){
+ QString Arduino::cherchercode(QString code){
 
      QSqlDatabase bd = QSqlDatabase::database();
  QString matricule;
@@ -90,7 +90,7 @@ int Arduino::close_arduino()
              return NULL;
          }
 
- }*/
+ }
  QByteArray Arduino::getdata()
  {
      return data;
