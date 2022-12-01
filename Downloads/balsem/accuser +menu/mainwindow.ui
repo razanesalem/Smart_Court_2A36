@@ -1,0 +1,4886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1449</width>
+    <height>693</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>681</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="page"/>
+    <widget class="QWidget" name="page_2"/>
+   </widget>
+   <widget class="QTabWidget" name="Affichage">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>210</y>
+      <width>1061</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <property name="movable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Page</string>
+     </attribute>
+     <widget class="QStackedWidget" name="stackedWidget1">
+      <property name="geometry">
+       <rect>
+        <x>-60</x>
+        <y>-10</y>
+        <width>1920</width>
+        <height>1200</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Junior Prince</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 11pt &quot;Junior Prince&quot;;
+</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_4"/>
+      <widget class="QWidget" name="page_3">
+       <widget class="QPushButton" name="pushButtonclients">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>260</y>
+          <width>186</width>
+          <height>46</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Junior Prince</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/img/img/Clients (2).png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonemployees">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>190</y>
+          <width>186</width>
+          <height>46</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Junior Prince</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/img/img/E.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pageacc">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>470</y>
+          <width>186</width>
+          <height>46</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Junior Prince</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/img/img/Page.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QStackedWidget" name="stackedWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>120</y>
+          <width>1500</width>
+          <height>1000</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="currentIndex">
+         <number>4</number>
+        </property>
+        <widget class="QWidget" name="pcommande">
+         <widget class="QGroupBox" name="commande">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>20</y>
+            <width>1500</width>
+            <height>1000</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Junior Prince</family>
+            <pointsize>11</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="title">
+           <string>Commande</string>
+          </property>
+          <widget class="QTabWidget" name="tabWidget">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>20</y>
+             <width>1411</width>
+             <height>858</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 8pt &quot;Junior Prince&quot;;</string>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="tab_4">
+            <attribute name="title">
+             <string>COMMANDE</string>
+            </attribute>
+            <widget class="QLineEdit" name="montant">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>610</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="idemp">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>540</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="modepaiment">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>410</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="comboBoxidclient">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>480</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="le_num">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>220</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="description">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>280</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QDateEdit" name="datedecommande">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>340</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="displayFormat">
+              <string>dd/MM/yy</string>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="ajouterCommandes">
+             <property name="geometry">
+              <rect>
+               <x>40</x>
+               <y>730</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Ajouter.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="ModifierCommandes">
+             <property name="geometry">
+              <rect>
+               <x>180</x>
+               <y>730</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Modifier.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="supprimerCommandes">
+             <property name="geometry">
+              <rect>
+               <x>320</x>
+               <y>730</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Supprimer.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="chercher_2Commandes">
+             <property name="geometry">
+              <rect>
+               <x>980</x>
+               <y>30</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Rechercher.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QTableView" name="tabcommande">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="geometry">
+              <rect>
+               <x>570</x>
+               <y>103</y>
+               <width>820</width>
+               <height>273</height>
+              </rect>
+             </property>
+             <property name="acceptDrops">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"> QTableView  {
+     color: white;
+background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #88d, stop: 0.1 #99e, stop: 0.49 #77c, stop: 0.5 #66b, stop: 1 #77c);
+border-width: 1px;
+border-color: #339;
+border-style: solid;
+ }</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditchercher">
+             <property name="geometry">
+              <rect>
+               <x>820</x>
+               <y>30</y>
+               <width>151</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="imprimer">
+             <property name="geometry">
+              <rect>
+               <x>1240</x>
+               <y>30</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Imprimer.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="chercher">
+             <property name="geometry">
+              <rect>
+               <x>660</x>
+               <y>30</y>
+               <width>151</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="Affichertout">
+             <property name="geometry">
+              <rect>
+               <x>1110</x>
+               <y>30</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Afficher.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="photoCmd">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>1411</width>
+               <height>858</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="affectercolis">
+             <property name="geometry">
+              <rect>
+               <x>790</x>
+               <y>610</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="etat">
+             <property name="geometry">
+              <rect>
+               <x>790</x>
+               <y>680</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="affecter">
+             <property name="geometry">
+              <rect>
+               <x>660</x>
+               <y>740</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Affecter.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="affecternumcommande">
+             <property name="geometry">
+              <rect>
+               <x>790</x>
+               <y>540</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="afficheraffecter">
+             <property name="geometry">
+              <rect>
+               <x>810</x>
+               <y>740</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Afficher.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <zorder>photoCmd</zorder>
+            <zorder>montant</zorder>
+            <zorder>idemp</zorder>
+            <zorder>modepaiment</zorder>
+            <zorder>comboBoxidclient</zorder>
+            <zorder>le_num</zorder>
+            <zorder>description</zorder>
+            <zorder>datedecommande</zorder>
+            <zorder>ajouterCommandes</zorder>
+            <zorder>ModifierCommandes</zorder>
+            <zorder>supprimerCommandes</zorder>
+            <zorder>chercher_2Commandes</zorder>
+            <zorder>tabcommande</zorder>
+            <zorder>lineEditchercher</zorder>
+            <zorder>imprimer</zorder>
+            <zorder>chercher</zorder>
+            <zorder>Affichertout</zorder>
+            <zorder>affectercolis</zorder>
+            <zorder>etat</zorder>
+            <zorder>affecter</zorder>
+            <zorder>affecternumcommande</zorder>
+            <zorder>afficheraffecter</zorder>
+           </widget>
+           <widget class="QWidget" name="tab_5">
+            <attribute name="title">
+             <string>VEHICULE</string>
+            </attribute>
+            <widget class="QComboBox" name="typecarburant">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>540</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="AjouterVehicule">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>720</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Ajouter.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="supprimerVehicule">
+             <property name="geometry">
+              <rect>
+               <x>180</x>
+               <y>720</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Supprimer.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="combochercherv">
+             <property name="geometry">
+              <rect>
+               <x>660</x>
+               <y>30</y>
+               <width>151</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="typev">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>400</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QTableView" name="tabvehicule">
+             <property name="geometry">
+              <rect>
+               <x>570</x>
+               <y>103</y>
+               <width>820</width>
+               <height>273</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QTableView {
+color: white;
+background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #88d, stop: 0.1 #99e, stop: 0.49 #77c, stop: 0.5 #66b, stop: 1 #77c);
+border-width: 1px;
+border-color: #339;
+border-style: solid;}</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="numerochassis">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>280</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QDateEdit" name="datecirculation">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>470</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+
+</string>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="Affichertout_2">
+             <property name="geometry">
+              <rect>
+               <x>1120</x>
+               <y>30</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Afficher.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="cherchervehicule">
+             <property name="geometry">
+              <rect>
+               <x>980</x>
+               <y>30</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Rechercher.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="Matricule">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>220</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditvehicule">
+             <property name="geometry">
+              <rect>
+               <x>820</x>
+               <y>30</y>
+               <width>151</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="ModifierVehicule">
+             <property name="geometry">
+              <rect>
+               <x>330</x>
+               <y>720</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Modifier.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="marquev">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>340</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="comboBoxemp">
+             <property name="geometry">
+              <rect>
+               <x>260</x>
+               <y>610</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="photoVeh">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>1411</width>
+               <height>858</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="statistique">
+             <property name="geometry">
+              <rect>
+               <x>500</x>
+               <y>720</y>
+               <width>134</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+border-image: url(:/img/img/stat.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <zorder>photoVeh</zorder>
+            <zorder>typecarburant</zorder>
+            <zorder>AjouterVehicule</zorder>
+            <zorder>supprimerVehicule</zorder>
+            <zorder>combochercherv</zorder>
+            <zorder>typev</zorder>
+            <zorder>tabvehicule</zorder>
+            <zorder>numerochassis</zorder>
+            <zorder>datecirculation</zorder>
+            <zorder>Affichertout_2</zorder>
+            <zorder>cherchervehicule</zorder>
+            <zorder>Matricule</zorder>
+            <zorder>lineEditvehicule</zorder>
+            <zorder>ModifierVehicule</zorder>
+            <zorder>marquev</zorder>
+            <zorder>comboBoxemp</zorder>
+            <zorder>statistique</zorder>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="pemployees">
+         <widget class="QGroupBox" name="employees">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>30</y>
+            <width>1411</width>
+            <height>858</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Junior Prince</family>
+            <pointsize>11</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="title">
+           <string>Employées</string>
+          </property>
+          <widget class="QTabWidget" name="tabWidget_2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>20</y>
+             <width>1411</width>
+             <height>858</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+font: 8pt &quot;Junior Prince&quot;;
+</string>
+           </property>
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <widget class="QWidget" name="tab_6">
+            <attribute name="title">
+             <string>Gestion des employées</string>
+            </attribute>
+            <widget class="QPushButton" name="pb_ajouter_2">
+             <property name="geometry">
+              <rect>
+               <x>390</x>
+               <y>670</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Ajouter.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="le_prenom_2">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>350</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="le_nom_2">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>286</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="le_mail_2">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>618</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="le_id_3">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>220</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="le_adr_2">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>542</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="le_numtel_2">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>479</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="clearButtonEnabled">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="modifier_3">
+             <property name="geometry">
+              <rect>
+               <x>550</x>
+               <y>670</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Modifier.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="supprimer_2">
+             <property name="geometry">
+              <rect>
+               <x>700</x>
+               <y>670</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Supprimer.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="affichage_2">
+             <property name="geometry">
+              <rect>
+               <x>1210</x>
+               <y>40</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Afficher.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="chercher_3">
+             <property name="geometry">
+              <rect>
+               <x>1070</x>
+               <y>40</y>
+               <width>132</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Rechercher.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="cherchertext_2">
+             <property name="geometry">
+              <rect>
+               <x>910</x>
+               <y>40</y>
+               <width>151</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="chercherchoix_2">
+             <property name="geometry">
+              <rect>
+               <x>740</x>
+               <y>40</y>
+               <width>151</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>Identifiant Employé</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Nom</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Numéro de télèphone</string>
+              </property>
+             </item>
+            </widget>
+            <widget class="QTableView" name="tabemp_2">
+             <property name="geometry">
+              <rect>
+               <x>569</x>
+               <y>106</y>
+               <width>819</width>
+               <height>417</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QDateEdit" name="la_dns_2">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>415</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="displayFormat">
+              <string>d/M/yyyy</string>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="photoEm">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>1411</width>
+               <height>858</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <zorder>modifier_3</zorder>
+            <zorder>photoEm</zorder>
+            <zorder>pb_ajouter_2</zorder>
+            <zorder>le_prenom_2</zorder>
+            <zorder>le_nom_2</zorder>
+            <zorder>le_mail_2</zorder>
+            <zorder>le_id_3</zorder>
+            <zorder>le_adr_2</zorder>
+            <zorder>le_numtel_2</zorder>
+            <zorder>supprimer_2</zorder>
+            <zorder>affichage_2</zorder>
+            <zorder>chercher_3</zorder>
+            <zorder>cherchertext_2</zorder>
+            <zorder>chercherchoix_2</zorder>
+            <zorder>tabemp_2</zorder>
+            <zorder>la_dns_2</zorder>
+           </widget>
+           <widget class="QWidget" name="tab_7">
+            <attribute name="title">
+             <string>Gestion des congés</string>
+            </attribute>
+            <widget class="QLineEdit" name="le_prenomc_2">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>328</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="le_idc_2">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>201</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="le_nomc_2">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>264</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QDateEdit" name="deb_2">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>391</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="displayFormat">
+              <string>d/M/yyyy</string>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="etat_3">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>590</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QDateEdit" name="fin_2">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>453</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="displayFormat">
+              <string>d/M/yyyy</string>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="dur_2">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>520</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="envoyerCmail">
+             <property name="geometry">
+              <rect>
+               <x>950</x>
+               <y>610</y>
+               <width>184</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/envoyermail.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pb_modifierc_2">
+             <property name="geometry">
+              <rect>
+               <x>410</x>
+               <y>570</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Modifier.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pb_supprimerc_2">
+             <property name="geometry">
+              <rect>
+               <x>410</x>
+               <y>630</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Supprimer.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pb_ajouterc_2">
+             <property name="geometry">
+              <rect>
+               <x>410</x>
+               <y>510</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Ajouter.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="affichagec_2">
+             <property name="geometry">
+              <rect>
+               <x>1170</x>
+               <y>40</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Afficher.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="choixR_2">
+             <property name="geometry">
+              <rect>
+               <x>660</x>
+               <y>40</y>
+               <width>151</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+color: rgb(255, 255, 255);</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>Identifiant Congée</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Nom</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Durée</string>
+              </property>
+             </item>
+            </widget>
+            <widget class="QPushButton" name="recherchec_2">
+             <property name="geometry">
+              <rect>
+               <x>1020</x>
+               <y>40</y>
+               <width>132</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Rechercher.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="choix_2">
+             <property name="geometry">
+              <rect>
+               <x>850</x>
+               <y>40</y>
+               <width>151</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QTableView" name="tabconge_2">
+             <property name="geometry">
+              <rect>
+               <x>569</x>
+               <y>106</y>
+               <width>819</width>
+               <height>417</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="TrierC_2">
+             <property name="geometry">
+              <rect>
+               <x>1000</x>
+               <y>550</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Trier.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="choixT_2">
+             <property name="geometry">
+              <rect>
+               <x>820</x>
+               <y>550</y>
+               <width>151</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Junior Prince</family>
+               <pointsize>8</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>Identifiant Congée</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Nom</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Durée</string>
+              </property>
+             </item>
+            </widget>
+            <widget class="QLabel" name="photoCong_2">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>1411</width>
+               <height>858</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="le_id_4">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>655</y>
+               <width>128</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+            </widget>
+            <zorder>photoCong_2</zorder>
+            <zorder>le_prenomc_2</zorder>
+            <zorder>le_idc_2</zorder>
+            <zorder>le_nomc_2</zorder>
+            <zorder>deb_2</zorder>
+            <zorder>etat_3</zorder>
+            <zorder>fin_2</zorder>
+            <zorder>dur_2</zorder>
+            <zorder>envoyerCmail</zorder>
+            <zorder>pb_modifierc_2</zorder>
+            <zorder>pb_supprimerc_2</zorder>
+            <zorder>pb_ajouterc_2</zorder>
+            <zorder>affichagec_2</zorder>
+            <zorder>choixR_2</zorder>
+            <zorder>recherchec_2</zorder>
+            <zorder>choix_2</zorder>
+            <zorder>tabconge_2</zorder>
+            <zorder>TrierC_2</zorder>
+            <zorder>choixT_2</zorder>
+            <zorder>le_id_4</zorder>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="pagedacceuil">
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>0</y>
+            <width>921</width>
+            <height>431</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Junior Prince</family>
+            <pointsize>11</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">
+font: 11pt &quot;Junior Prince&quot;;
+</string>
+          </property>
+          <property name="title">
+           <string>PAGE D'ACCEUIL</string>
+          </property>
+          <widget class="QLabel" name="label_15">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>250</y>
+             <width>191</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Nombre des places disponible</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_16">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>210</y>
+             <width>191</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Nombre des vehicules</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="le_pd_2">
+           <property name="geometry">
+            <rect>
+             <x>490</x>
+             <y>250</y>
+             <width>55</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>30</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="le_ve_2">
+           <property name="geometry">
+            <rect>
+             <x>490</x>
+             <y>206</y>
+             <width>101</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="pa">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>20</y>
+             <width>921</width>
+             <height>411</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_17">
+           <property name="geometry">
+            <rect>
+             <x>260</x>
+             <y>290</y>
+             <width>191</width>
+             <height>20</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Nombre des employes entré:</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_18">
+           <property name="geometry">
+            <rect>
+             <x>490</x>
+             <y>290</y>
+             <width>55</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_19">
+           <property name="geometry">
+            <rect>
+             <x>280</x>
+             <y>330</y>
+             <width>131</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Nombre des colis</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_20">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>330</y>
+             <width>61</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_7">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>40</y>
+             <width>321</width>
+             <height>131</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(86, 86, 86)	;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+font-family:calibri;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius : 16px;</string>
+           </property>
+           <property name="title">
+            <string>Music</string>
+           </property>
+           <widget class="QLabel" name="label_36">
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>40</y>
+              <width>111</width>
+              <height>21</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>calibri</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="text">
+             <string>Volume:</string>
+            </property>
+           </widget>
+           <widget class="QSlider" name="slider_volume">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>140</x>
+              <y>40</y>
+              <width>91</width>
+              <height>22</height>
+             </rect>
+            </property>
+            <property name="minimum">
+             <number>10</number>
+            </property>
+            <property name="value">
+             <number>20</number>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="start">
+            <property name="geometry">
+             <rect>
+              <x>40</x>
+              <y>80</y>
+              <width>120</width>
+              <height>38</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>calibri</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/img/img/Commencer.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pause">
+            <property name="geometry">
+             <rect>
+              <x>160</x>
+              <y>80</y>
+              <width>120</width>
+              <height>38</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>calibri</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/img/img/Arreter.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QPushButton" name="pushButton_13">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>380</y>
+             <width>120</width>
+             <height>38</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>calibri</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+             <underline>false</underline>
+             <strikeout>false</strikeout>
+             <kerning>true</kerning>
+            </font>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: #8B0000	;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+font-family:calibri;
+  display: inline-block;
+  font-size: 13px;
+  margin: 2px 1px;
+  border-radius : 16px;</string>
+           </property>
+           <property name="text">
+            <string>quitter</string>
+           </property>
+          </widget>
+          <zorder>label_15</zorder>
+          <zorder>label_16</zorder>
+          <zorder>label_17</zorder>
+          <zorder>label_18</zorder>
+          <zorder>label_19</zorder>
+          <zorder>label_20</zorder>
+          <zorder>groupBox_7</zorder>
+          <zorder>pa</zorder>
+          <zorder>le_pd_2</zorder>
+          <zorder>le_ve_2</zorder>
+          <zorder>pushButton_13</zorder>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="psav">
+         <widget class="QGroupBox" name="sav">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>40</y>
+            <width>981</width>
+            <height>391</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Junior Prince</family>
+            <pointsize>11</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:white;</string>
+          </property>
+          <property name="title">
+           <string>S.A.V</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="pclients">
+         <widget class="QGroupBox" name="client">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>1500</width>
+            <height>1000</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Junior Prince</family>
+            <pointsize>11</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="title">
+           <string>CLIENTS</string>
+          </property>
+          <widget class="QTabWidget" name="tabWidget_3">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>15</y>
+             <width>1411</width>
+             <height>858</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="gestion_cl">
+            <attribute name="title">
+             <string>Gestion client</string>
+            </attribute>
+            <widget class="QGroupBox" name="ajout_cl">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>1411</width>
+               <height>858</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="title">
+              <string/>
+             </property>
+             <widget class="QPushButton" name="pb_envoyermail_client">
+              <property name="geometry">
+               <rect>
+                <x>1030</x>
+                <y>470</y>
+                <width>151</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Junior Prince</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+                <underline>false</underline>
+                <strikeout>false</strikeout>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/envoyermail.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pb_ajout_client">
+              <property name="geometry">
+               <rect>
+                <x>360</x>
+                <y>620</y>
+                <width>120</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Junior Prince</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+                <underline>false</underline>
+                <strikeout>false</strikeout>
+                <kerning>true</kerning>
+               </font>
+              </property>
+              <property name="autoFillBackground">
+               <bool>false</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/Ajouter.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="le_pays_client">
+              <property name="geometry">
+               <rect>
+                <x>190</x>
+                <y>340</y>
+                <width>127</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="le_ref_client">
+              <property name="geometry">
+               <rect>
+                <x>190</x>
+                <y>220</y>
+                <width>127</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="le_telephone_client">
+              <property name="geometry">
+               <rect>
+                <x>190</x>
+                <y>550</y>
+                <width>127</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="le_nom_client">
+              <property name="geometry">
+               <rect>
+                <x>190</x>
+                <y>280</y>
+                <width>127</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="le_adresse_client">
+              <property name="geometry">
+               <rect>
+                <x>190</x>
+                <y>410</y>
+                <width>127</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="le_Email_client">
+              <property name="geometry">
+               <rect>
+                <x>190</x>
+                <y>480</y>
+                <width>127</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+             </widget>
+             <widget class="QTableView" name="tab_client">
+              <property name="geometry">
+               <rect>
+                <x>569</x>
+                <y>166</y>
+                <width>820</width>
+                <height>267</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="comboBox_tri_client">
+              <property name="geometry">
+               <rect>
+                <x>800</x>
+                <y>470</y>
+                <width>171</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>choisir</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>références croissants</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>références décroissants</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Alphabétique</string>
+               </property>
+              </item>
+             </widget>
+             <widget class="QComboBox" name="cb_rech_client">
+              <property name="geometry">
+               <rect>
+                <x>780</x>
+                <y>100</y>
+                <width>151</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>choisir</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>nom</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>reference</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>telephone</string>
+               </property>
+              </item>
+             </widget>
+             <widget class="QPushButton" name="search_pb">
+              <property name="geometry">
+               <rect>
+                <x>1100</x>
+                <y>100</y>
+                <width>120</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/Rechercher.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="le_amine">
+              <property name="geometry">
+               <rect>
+                <x>940</x>
+                <y>100</y>
+                <width>151</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="cb_reff_modif">
+              <property name="geometry">
+               <rect>
+                <x>140</x>
+                <y>695</y>
+                <width>117</width>
+                <height>35</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pb_modif_client">
+              <property name="geometry">
+               <rect>
+                <x>360</x>
+                <y>660</y>
+                <width>120</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Junior Prince</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+                <underline>false</underline>
+                <strikeout>false</strikeout>
+                <kerning>true</kerning>
+               </font>
+              </property>
+              <property name="autoFillBackground">
+               <bool>false</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/Modifier.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pb_supprimer_client">
+              <property name="geometry">
+               <rect>
+                <x>360</x>
+                <y>700</y>
+                <width>120</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Junior Prince</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+                <underline>false</underline>
+                <strikeout>false</strikeout>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/Supprimer.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QLabel" name="photoCli">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1411</width>
+                <height>858</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <zorder>photoCli</zorder>
+             <zorder>pb_envoyermail_client</zorder>
+             <zorder>pb_ajout_client</zorder>
+             <zorder>le_pays_client</zorder>
+             <zorder>le_ref_client</zorder>
+             <zorder>le_telephone_client</zorder>
+             <zorder>le_nom_client</zorder>
+             <zorder>le_adresse_client</zorder>
+             <zorder>le_Email_client</zorder>
+             <zorder>tab_client</zorder>
+             <zorder>comboBox_tri_client</zorder>
+             <zorder>cb_rech_client</zorder>
+             <zorder>search_pb</zorder>
+             <zorder>le_amine</zorder>
+             <zorder>cb_reff_modif</zorder>
+             <zorder>pb_modif_client</zorder>
+             <zorder>pb_supprimer_client</zorder>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="gestion_cf">
+            <attribute name="title">
+             <string>Gestion carte de fidélité</string>
+            </attribute>
+            <widget class="QGroupBox" name="groupBox_8">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>1411</width>
+               <height>858</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="title">
+              <string/>
+             </property>
+             <widget class="QLineEdit" name="le_rech_cf">
+              <property name="geometry">
+               <rect>
+                <x>870</x>
+                <y>464</y>
+                <width>141</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pb_ajout_cf">
+              <property name="geometry">
+               <rect>
+                <x>130</x>
+                <y>610</y>
+                <width>120</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Junior Prince</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+                <underline>false</underline>
+                <strikeout>false</strikeout>
+                <kerning>true</kerning>
+               </font>
+              </property>
+              <property name="autoFillBackground">
+               <bool>false</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/Ajouter.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="le_num_cf">
+              <property name="geometry">
+               <rect>
+                <x>260</x>
+                <y>220</y>
+                <width>127</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="le_cheque_cf">
+              <property name="geometry">
+               <rect>
+                <x>260</x>
+                <y>480</y>
+                <width>127</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+             </widget>
+             <widget class="QLineEdit" name="le_points_cf">
+              <property name="geometry">
+               <rect>
+                <x>260</x>
+                <y>410</y>
+                <width>127</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QTableView" name="tab_cf">
+              <property name="geometry">
+               <rect>
+                <x>569</x>
+                <y>166</y>
+                <width>820</width>
+                <height>267</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="comboBox_tri_cf">
+              <property name="geometry">
+               <rect>
+                <x>1190</x>
+                <y>460</y>
+                <width>171</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Junior Prince</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+                <underline>false</underline>
+                <strikeout>false</strikeout>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>choisir</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>date emission croissant</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>date emission decroissant</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>date expiration croissant</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>date expiration decroissant</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>numeros croissants</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>numeros décroissants</string>
+               </property>
+              </item>
+             </widget>
+             <widget class="QPushButton" name="pb_rech_cf_2">
+              <property name="geometry">
+               <rect>
+                <x>930</x>
+                <y>630</y>
+                <width>120</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Junior Prince</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+                <underline>false</underline>
+                <strikeout>false</strikeout>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/Rechercher.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="cb_rech_cf">
+              <property name="geometry">
+               <rect>
+                <x>710</x>
+                <y>464</y>
+                <width>151</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Junior Prince</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+                <underline>false</underline>
+                <strikeout>false</strikeout>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>choisir</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>numero</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>points</string>
+               </property>
+              </item>
+             </widget>
+             <widget class="QPushButton" name="pb_rech_cf_3">
+              <property name="geometry">
+               <rect>
+                <x>800</x>
+                <y>520</y>
+                <width>127</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Junior Prince</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+                <underline>false</underline>
+                <strikeout>false</strikeout>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/Rechercher.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="comboBox_refer_cf">
+              <property name="geometry">
+               <rect>
+                <x>260</x>
+                <y>540</y>
+                <width>127</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="cb_num_supp">
+              <property name="geometry">
+               <rect>
+                <x>120</x>
+                <y>760</y>
+                <width>151</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Junior Prince</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pb_supp_cf">
+              <property name="geometry">
+               <rect>
+                <x>280</x>
+                <y>760</y>
+                <width>120</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Junior Prince</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+                <underline>false</underline>
+                <strikeout>false</strikeout>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/Supprimer.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pb_modifier_cf">
+              <property name="geometry">
+               <rect>
+                <x>260</x>
+                <y>610</y>
+                <width>120</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Junior Prince</family>
+                <pointsize>11</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+                <underline>false</underline>
+                <strikeout>false</strikeout>
+                <kerning>true</kerning>
+               </font>
+              </property>
+              <property name="autoFillBackground">
+               <bool>false</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/Modifier.png);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <widget class="QDateEdit" name="le_date_em">
+              <property name="geometry">
+               <rect>
+                <x>260</x>
+                <y>280</y>
+                <width>127</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="displayFormat">
+               <string>dd/MM/yy</string>
+              </property>
+              <property name="calendarPopup">
+               <bool>true</bool>
+              </property>
+             </widget>
+             <widget class="QDateEdit" name="le_date_ex">
+              <property name="geometry">
+               <rect>
+                <x>260</x>
+                <y>340</y>
+                <width>127</width>
+                <height>27</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="displayFormat">
+               <string>dd/MM/yy</string>
+              </property>
+              <property name="calendarPopup">
+               <bool>true</bool>
+              </property>
+             </widget>
+             <widget class="QDateEdit" name="dateEdit">
+              <property name="geometry">
+               <rect>
+                <x>790</x>
+                <y>630</y>
+                <width>127</width>
+                <height>38</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="displayFormat">
+               <string>dd/MM/yy</string>
+              </property>
+              <property name="calendarPopup">
+               <bool>true</bool>
+              </property>
+             </widget>
+             <widget class="QLabel" name="photoFid">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1411</width>
+                <height>858</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+             <zorder>photoFid</zorder>
+             <zorder>le_rech_cf</zorder>
+             <zorder>pb_ajout_cf</zorder>
+             <zorder>le_num_cf</zorder>
+             <zorder>le_cheque_cf</zorder>
+             <zorder>le_points_cf</zorder>
+             <zorder>tab_cf</zorder>
+             <zorder>comboBox_tri_cf</zorder>
+             <zorder>pb_rech_cf_2</zorder>
+             <zorder>cb_rech_cf</zorder>
+             <zorder>pb_rech_cf_3</zorder>
+             <zorder>comboBox_refer_cf</zorder>
+             <zorder>cb_num_supp</zorder>
+             <zorder>pb_supp_cf</zorder>
+             <zorder>pb_modifier_cf</zorder>
+             <zorder>le_date_em</zorder>
+             <zorder>le_date_ex</zorder>
+             <zorder>dateEdit</zorder>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="pstock">
+         <widget class="QGroupBox" name="stock">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>1500</width>
+            <height>1000</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Junior Prince</family>
+            <pointsize>11</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="title">
+           <string>Stock</string>
+          </property>
+          <widget class="QTabWidget" name="tabWidget_4">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>17</y>
+             <width>1411</width>
+             <height>858</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="tab_8">
+            <attribute name="title">
+             <string>colis</string>
+            </attribute>
+            <widget class="QLineEdit" name="code_barre">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="geometry">
+              <rect>
+               <x>225</x>
+               <y>212</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="longeur">
+             <property name="geometry">
+              <rect>
+               <x>225</x>
+               <y>276</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="largeur">
+             <property name="geometry">
+              <rect>
+               <x>225</x>
+               <y>338</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="poids">
+             <property name="geometry">
+              <rect>
+               <x>225</x>
+               <y>462</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="hauteur">
+             <property name="geometry">
+              <rect>
+               <x>225</x>
+               <y>402</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="supprimer_colis">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>620</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Supprimer.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="modifier_colis">
+             <property name="geometry">
+              <rect>
+               <x>230</x>
+               <y>620</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Modifier.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="ajouter_colis">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>620</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Ajouter.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QTableView" name="tabcolis">
+             <property name="geometry">
+              <rect>
+               <x>568</x>
+               <y>106</y>
+               <width>823</width>
+               <height>419</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="chercher_colis">
+             <property name="geometry">
+              <rect>
+               <x>1010</x>
+               <y>50</y>
+               <width>140</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="chercher_colis_2">
+             <property name="geometry">
+              <rect>
+               <x>1160</x>
+               <y>50</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Rechercher.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="comboBox_colis">
+             <property name="geometry">
+              <rect>
+               <x>870</x>
+               <y>50</y>
+               <width>127</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="comboBox_tri">
+             <property name="geometry">
+              <rect>
+               <x>860</x>
+               <y>550</y>
+               <width>127</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="geometry">
+              <rect>
+               <x>1000</x>
+               <y>550</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Trier.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="photoColis">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>1411</width>
+               <height>858</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <zorder>pushButton_3</zorder>
+            <zorder>photoColis</zorder>
+            <zorder>code_barre</zorder>
+            <zorder>longeur</zorder>
+            <zorder>largeur</zorder>
+            <zorder>poids</zorder>
+            <zorder>hauteur</zorder>
+            <zorder>supprimer_colis</zorder>
+            <zorder>modifier_colis</zorder>
+            <zorder>ajouter_colis</zorder>
+            <zorder>tabcolis</zorder>
+            <zorder>chercher_colis</zorder>
+            <zorder>chercher_colis_2</zorder>
+            <zorder>comboBox_colis</zorder>
+            <zorder>comboBox_tri</zorder>
+           </widget>
+           <widget class="QWidget" name="tab_9">
+            <attribute name="title">
+             <string>entrepots</string>
+            </attribute>
+            <widget class="QPushButton" name="ajouter_etr">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>600</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Ajouter.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="modifier_entr">
+             <property name="geometry">
+              <rect>
+               <x>290</x>
+               <y>600</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Modifier.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="supprimer_entro">
+             <property name="geometry">
+              <rect>
+               <x>440</x>
+               <y>600</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Supprimer.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="trier_entr">
+             <property name="geometry">
+              <rect>
+               <x>900</x>
+               <y>550</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Trier.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="chercher_entr">
+             <property name="geometry">
+              <rect>
+               <x>1120</x>
+               <y>40</y>
+               <width>120</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/Rechercher.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QTableView" name="tabentrep">
+             <property name="geometry">
+              <rect>
+               <x>568</x>
+               <y>105</y>
+               <width>822</width>
+               <height>421</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="ref">
+             <property name="geometry">
+              <rect>
+               <x>230</x>
+               <y>219</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="adresse">
+             <property name="geometry">
+              <rect>
+               <x>230</x>
+               <y>287</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="region">
+             <property name="geometry">
+              <rect>
+               <x>230</x>
+               <y>350</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="nsalles">
+             <property name="geometry">
+              <rect>
+               <x>230</x>
+               <y>412</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="nvehicules">
+             <property name="geometry">
+              <rect>
+               <x>230</x>
+               <y>475</y>
+               <width>127</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="comboBox_entro">
+             <property name="geometry">
+              <rect>
+               <x>780</x>
+               <y>40</y>
+               <width>127</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditentre">
+             <property name="geometry">
+              <rect>
+               <x>950</x>
+               <y>40</y>
+               <width>127</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="comboBox_tri22">
+             <property name="geometry">
+              <rect>
+               <x>720</x>
+               <y>550</y>
+               <width>151</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/LD.png);</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="geometry">
+              <rect>
+               <x>810</x>
+               <y>620</y>
+               <width>141</width>
+               <height>38</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/img/img/envoyermail.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="photoEntr">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>1411</width>
+               <height>858</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <zorder>pushButton_4</zorder>
+            <zorder>photoEntr</zorder>
+            <zorder>ajouter_etr</zorder>
+            <zorder>modifier_entr</zorder>
+            <zorder>supprimer_entro</zorder>
+            <zorder>trier_entr</zorder>
+            <zorder>chercher_entr</zorder>
+            <zorder>tabentrep</zorder>
+            <zorder>ref</zorder>
+            <zorder>adresse</zorder>
+            <zorder>region</zorder>
+            <zorder>nsalles</zorder>
+            <zorder>nvehicules</zorder>
+            <zorder>comboBox_entro</zorder>
+            <zorder>lineEditentre</zorder>
+            <zorder>comboBox_tri22</zorder>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="pushButtonsav">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>400</y>
+          <width>186</width>
+          <height>46</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Junior Prince</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/img/img/SAV.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Commande">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>120</y>
+          <width>186</width>
+          <height>46</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Junior Prince</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/img/img/commande.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonstock">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>330</y>
+          <width>186</width>
+          <height>46</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Junior Prince</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/img/img/Stock.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>540</y>
+          <width>186</width>
+          <height>46</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Junior Prince</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/img/img/Logout.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_9">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>0</y>
+          <width>451</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLineEdit" name="le_user_rfid">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>10</y>
+           <width>221</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:black;</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="le_email_rfid">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>40</y>
+           <width>221</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:black;</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="le_depart_rfid">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>80</y>
+           <width>221</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:black;</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="le_photo">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>10</y>
+           <width>101</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:black;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>10</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:black;</string>
+         </property>
+         <property name="text">
+          <string>username</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>40</y>
+           <width>61</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:black;</string>
+         </property>
+         <property name="text">
+          <string>email</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>80</y>
+           <width>81</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:black;</string>
+         </property>
+         <property name="text">
+          <string>department</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLineEdit" name="le_role">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>30</y>
+          <width>127</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/img/img/LD.png);
+font: 8pt &quot;Junior Prince&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Ajouter">
+     <attribute name="title">
+      <string>Ajouter</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>110</y>
+        <width>511</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(15, 15, 15);</string>
+      </property>
+      <property name="title">
+       <string>Ajouter un accusé</string>
+      </property>
+      <widget class="QLabel" name="label_id">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>50</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="contextMenuPolicy">
+        <enum>Qt::ActionsContextMenu</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(15, 15, 15);</string>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_nom">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>100</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(15, 15, 15);</string>
+       </property>
+       <property name="text">
+        <string>NOM</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_prenom">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>150</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(15, 15, 15);</string>
+       </property>
+       <property name="text">
+        <string>PRENOM</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_affaire">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>200</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(15, 15, 15);</string>
+       </property>
+       <property name="text">
+        <string>ID affaires juridiques</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_etat">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>250</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(15, 15, 15);</string>
+       </property>
+       <property name="text">
+        <string>ETAT</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_ajouter">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>300</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>ajouter</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_id_ajou">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>50</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_nom_aj">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>100</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(52, 52, 52);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_pren_aj">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>150</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(16, 16, 16);</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_aj">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>260</y>
+         <width>141</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(25, 25, 25);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>liberer</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>prisonier</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_affaire">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>210</y>
+         <width>141</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>50</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri Light</family>
+        <pointsize>14</pointsize>
+        <italic>true</italic>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(15, 15, 15);</string>
+      </property>
+      <property name="text">
+       <string>Ajouter des accusés</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_id_photo">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>270</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_logo">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>380</y>
+        <width>271</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <zorder>label_7</zorder>
+     <zorder>label_id_photo</zorder>
+     <zorder>label_logo</zorder>
+     <zorder>groupBox</zorder>
+    </widget>
+    <widget class="QWidget" name="modifier_2">
+     <attribute name="title">
+      <string>Modifier</string>
+     </attribute>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>60</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri Light</family>
+        <pointsize>14</pointsize>
+        <italic>true</italic>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#0f0f0f;&quot;&gt;Modifier des accusés:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>110</y>
+        <width>511</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Modifier un accusé</string>
+      </property>
+      <widget class="QLabel" name="label_id_3">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>50</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(15, 15, 15);</string>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_nom_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>100</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(15, 15, 15);
+</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;NOM&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_prenom_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>150</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;PRENOM&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_affaire_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>200</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ID affaires juridiques&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_etat_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>250</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ETAT&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_ajouter_2">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>300</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Modifier</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_id_ajou_2">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>50</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_nom_aj_2">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>100</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_pren_aj_2">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>150</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_mod">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>260</y>
+         <width>141</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>liberer</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>prisonier</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_logo_2">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>370</y>
+        <width>271</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_aff_ajou_2">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>320</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <zorder>label_logo_2</zorder>
+     <zorder>groupBox_3</zorder>
+     <zorder>label_10</zorder>
+     <zorder>lineEdit_aff_ajou_2</zorder>
+    </widget>
+    <widget class="QWidget" name="modifier">
+     <attribute name="title">
+      <string>supprimer</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>90</y>
+        <width>571</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>supprimer un acusee</string>
+      </property>
+      <widget class="QLabel" name="label_id_2">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>110</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_id_ajou_supp">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>110</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_supp">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>190</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>supprimer</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>40</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri Light</family>
+        <pointsize>14</pointsize>
+        <italic>true</italic>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Supprimer des accusés</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_logo_3">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>370</y>
+        <width>271</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="affichage">
+     <attribute name="title">
+      <string>Affichage</string>
+     </attribute>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>30</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri Light</family>
+        <pointsize>14</pointsize>
+        <italic>true</italic>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Affichier des accusés</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableView_aff">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>130</y>
+        <width>701</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="sortingEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_logo_4">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>380</y>
+        <width>271</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>510</y>
+        <width>671</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_id_4">
+         <property name="text">
+          <string>Trier par</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox">
+         <item>
+          <property name="text">
+           <string>Prénom</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Nom</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>ID</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_trier">
+         <property name="text">
+          <string>Trier</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_pdf">
+         <property name="text">
+          <string>exporter PDF</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Statistique</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>100</y>
+        <width>701</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLineEdit" name="lineEdit_chercher"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>chercher</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Text parole</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>821</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Texteparole</string>
+      </property>
+      <widget class="QPlainTextEdit" name="plainTextEdit">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>691</width>
+         <height>192</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="plainText">
+        <string>hello smart court
+</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>210</y>
+         <width>691</width>
+         <height>186</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="3" column="2">
+         <widget class="QSlider" name="pitch">
+          <property name="minimum">
+           <number>-10</number>
+          </property>
+          <property name="maximum">
+           <number>10</number>
+          </property>
+          <property name="singleStep">
+           <number>1</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_11">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Engine</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>&amp;Language:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="buddy">
+           <cstring>language</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QComboBox" name="language">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="2">
+         <widget class="QComboBox" name="voice"/>
+        </item>
+        <item row="4" column="2">
+         <widget class="QComboBox" name="engine">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Rate:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>Voice name:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Volume:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QSlider" name="rate">
+          <property name="minimum">
+           <number>-10</number>
+          </property>
+          <property name="maximum">
+           <number>10</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>Pitch:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QSlider" name="volume">
+          <property name="maximum">
+           <number>100</number>
+          </property>
+          <property name="singleStep">
+           <number>5</number>
+          </property>
+          <property name="pageStep">
+           <number>20</number>
+          </property>
+          <property name="value">
+           <number>70</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>400</y>
+         <width>691</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="speakButton">
+          <property name="text">
+           <string>Speak</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pauseButton">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Pause</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="resumeButton">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Resume</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="stopButton">
+          <property name="text">
+           <string>Stop</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Page</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>120</y>
+        <width>571</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>Accuser en recherche</string>
+      </property>
+      <widget class="QLabel" name="label_id_5">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>110</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>ID </string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_alerte">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>190</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Alerter</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_alert">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>120</y>
+         <width>113</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1449</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
