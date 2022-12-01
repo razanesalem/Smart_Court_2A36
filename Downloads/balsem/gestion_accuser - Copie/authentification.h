@@ -1,8 +1,6 @@
 #ifndef AUTHENTIFICATION_H
 #define AUTHENTIFICATION_H
 
-
-
 #include <QDialog>
 #include "mainwindow_acuucse.h"
 #include "menu.h"

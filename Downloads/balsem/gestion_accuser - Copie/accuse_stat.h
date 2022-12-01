@@ -24,6 +24,8 @@ namespace Ui {
 class statisque;
 }
 
+
+
 class statisque : public QDialog
 {
     Q_OBJECT

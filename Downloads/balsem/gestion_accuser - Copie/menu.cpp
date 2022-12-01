@@ -8,7 +8,7 @@ menu::menu(QWidget *parent) :
     ui->setupUi(this);
 
 
-    QPixmap pix("C:/Users/Zakraoui/Pictures/gestion_accuser/court backg.png");
+    QPixmap pix("C:/Users/Zakraoui/Downloads/balsem/gestion_accuser - Copie/court backg.png");
   ui->label_2->setPixmap(pix);
 }
 
