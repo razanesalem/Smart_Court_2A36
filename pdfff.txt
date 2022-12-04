@@ -1,0 +1,150 @@
+void materiels::on_pdf_clicked()
+{ QPrinter printer;
+    classe_materiels M;
+    QString referx=ui->refx->text();
+    //QString refer=ui->nomm->text();
+
+    QString prix_ =QString::number(M.get_Prix());
+    QString quantite_ =QString::number(M.get_Quantite());
+
+
+    QString Reference;
+    QString Type;   //M.get_Reference()
+    QString Nom;
+QString sQuery="SELECT REFERENCE,NOM,QUANTITE,PRIX,TYPE  FROM MATERIELS WHERE REFERENCE LIKE'%"+referx+"%'  " ;
+    QSqlQuery query (sQuery);
+    while (query.next()) {
+
+
+     M.set_Reference(query.value(0).toString()) ;
+     M.set_Type(query.value(4).toString());
+     M.set_Nom(query.value(1).toString());
+     prix_=query.value(3).toString();
+     quantite_=query.value(2).toString();
+
+        /*M.set_Reference(ui->refx->text());
+        M.set_Nom(ui->nommx->text()) ;
+        M.set_Type(ui->comboBoxmo->currentText()) ;
+        M.set_Reference(ui->refx->text()) ;
+        M.set_Quantite(ui->qttex->text().toInt()) ;
+        M.set_Prix(ui->prixxx->text().toInt()) ;
+
+      //  QString ref=M.get_Reference();
+
+          ui->nommx->setText("") ;
+          ui->comboBoxmo->setCurrentText("") ;
+          ui->refx->setText("") ;
+          ui->qttex->setText("") ;
+          ui->prixxx->setText("") ;*/
+/*void MainWindow::on_pb_pdf_clicked()
+{
+    //QPrinter printer;
+      QSqlQuery query;
+       Avocat A;
+       QString id_string= QString::number(id_av);
+       QString nom_av;
+       QString prenom_av;
+       QString adresse_av;
+       QString mail_av;
+       QString num_tel_string= QString::number(num_tel_av);
+
+
+
+
+
+   QString sQuery="SELECT *  FROM avocat WHERE REFERENCE LIKE'%"+referx+"%'  " ;
+       QSqlQuery query (sQuery);
+       while (query.next()) {
+
+
+        M.set_Reference(query.value(0).toString()) ;
+        M.set_Type(query.value(4).toString());
+        M.set_Nom(query.value(1).toString());
+        prix_=query.value(3).toString();
+        quantite_=query.value(2).toString();
+
+           /*M.set_Reference(ui->refx->text());
+           M.set_Nom(ui->nommx->text()) ;
+           M.set_Type(ui->comboBoxmo->currentText()) ;
+           M.set_Reference(ui->refx->text()) ;
+           M.set_Quantite(ui->qttex->text().toInt()) ;
+           M.set_Prix(ui->prixxx->text().toInt()) ;
+
+         //  QString ref=M.get_Reference();
+
+             ui->nommx->setText("") ;
+             ui->comboBoxmo->setCurrentText("") ;
+             ui->refx->setText("") ;
+             ui->qttex->setText("") ;
+             ui->prixxx->setText("") ;
+
+      //  printer.setOutputFormat(QPrinter::PdfFormat);
+       printer.setOutputFileName("lePDF.pdf");
+
+
+       QPdfWriter pdf("C:/Users/azizm/OneDrive/Documents/Documents Qt");
+       QPainter painter(&pdf);
+       if (! painter.begin(&printer)) { // failed to open file
+                  qWarning("failed to open file, is it writable?");
+                  ;
+              }
+     // painter.drawPixmap(QRect(-10,-10,13000,20000),QPixmap("C:/Users/azizm/OneDrive/Documents/Documents Qt/abcd.jpg"));
+       painter.setPen(Qt::black);
+       painter.setFont(QFont("Bahnschrift SemiBold",20));
+       painter.drawText(100,450,"ID_AV : ");
+       painter.drawText(500,450,A.getid_av());
+       painter.setPen(Qt::black);
+       painter.drawText(100,600,"NOM : ");
+       painter.drawText(500,600,M.get_Nom());
+       painter.drawText(100,700,"QUANTITE : ");
+       painter.drawText(500,700,quantite_);
+       painter.drawText(100,800,"PRIX : ");
+       painter.drawText(500,800,prix_);
+       painter.drawText(100,900,"TYPE : ");
+       painter.drawText(500,900,M.get_Type());
+
+
+
+       painter.drawPixmap(QRect(2300,9000,4800,4800),QPixmap("C:/Users/azizm/OneDrive/Documents/Documents Qt/qrcode-dizziweb.png"));
+       painter.end();
+
+      // mysystem->showMessage(tr("notification"),tr("fichier pdf pret"));
+}*/
+
+
+
+    }
+
+   //  printer.setOutputFormat(QPrinter::PdfFormat);
+     printer.setOutputFileName("lePDF.pdf");
+
+
+    QPdfWriter pdf("C:/Users/azizm/OneDrive/Documents/Documents Qt");
+    QPainter painter(&pdf);
+    if (! painter.begin(&printer)) { // failed to open file
+               qWarning("failed to open file, is it writable?");
+               ;
+           }
+  // painter.drawPixmap(QRect(-10,-10,13000,20000),QPixmap("C:/Users/azizm/OneDrive/Documents/Documents Qt/abcd.jpg"));
+    painter.setPen(Qt::black);
+    painter.setFont(QFont("Bahnschrift SemiBold",20));
+    painter.drawText(100,450,"REFERENCE : ");
+    painter.drawText(500,450,M.get_Reference());
+    painter.setPen(Qt::black);
+    painter.drawText(100,600,"NOM : ");
+    painter.drawText(500,600,M.get_Nom());
+    painter.drawText(100,700,"QUANTITE : ");
+    painter.drawText(500,700,quantite_);
+    painter.drawText(100,800,"PRIX : ");
+    painter.drawText(500,800,prix_);
+    painter.drawText(100,900,"TYPE : ");
+    painter.drawText(500,900,M.get_Type());
+
+
+
+    painter.drawPixmap(QRect(2300,9000,4800,4800),QPixmap("C:/Users/azizm/OneDrive/Documents/Documents Qt/qrcode-dizziweb.png"));
+    painter.end();
+
+
+   // mysystem->showMessage(tr("notification"),tr("fichier pdf pret"));
+}
