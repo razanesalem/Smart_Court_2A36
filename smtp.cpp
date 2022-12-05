@@ -1,5 +1,9 @@
 #include "smtp.h"
+<<<<<<< HEAD
 //mai
+=======
+
+>>>>>>> parent of cbc4d13 (mail)
 Smtp::Smtp( const QString &user, const QString &pass, const QString &host, int port, int timeout )
 {
     socket = new QSslSocket(this);
