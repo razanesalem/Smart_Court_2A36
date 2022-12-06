@@ -3,6 +3,7 @@
 #include <QMessageBox>
 #include "avocat_inter.h"
 #include "affaire_inter.h"
+#include "gestion_des_em.h"
 
 menu::menu(QWidget *parent) :
     QDialog(parent),
@@ -22,12 +23,13 @@ menu::~menu()
 void menu::on_pushButton_accuser_clicked()
 {
     qDebug()<<"WELCOME wiem";
+
     wiem.show();
 }
 void menu::on_menu_customers_clicked()
 {
-    QMessageBox::information(nullptr, QObject::tr("WELCOME Adem"),
-                               QObject::tr("LOADING.\nClick Cancel to exit."), QMessageBox::Ok);
+   gestion_des_em *e=new gestion_des_em();
+   e->show();
 }
 
 void menu::on_menu_sponsor_clicked()

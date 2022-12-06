@@ -18,7 +18,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     accuse.cpp \
     accuse_stat.cpp \
-    admin.cpp \
     affaire.cpp \
     affaire_inter.cpp \
     arduino.cpp \
@@ -27,18 +26,20 @@ SOURCES += \
     avocat_inter.cpp \
     connexion.cpp \
     main.cpp \
-    mainwindow.cpp \
+    mainwindow_acuucse.cpp \
     menu.cpp \
     qrcode.cpp \
     qrcodegeneratordemo.cpp \
     qrcodegeneratorworker.cpp \
     qrwidget.cpp \
-    stat_nb.cpp
+    stat_nb.cpp\
+    employer.cpp \
+    gestion_des_em.cpp \
+    smtp.cpp
 
 HEADERS += \
     accuse.h \
     accuse_stat.h \
-    admin.h \
     affaire.h \
     affaire_inter.h \
     arduino.h \
@@ -46,21 +47,24 @@ HEADERS += \
     avocat.h \
     avocat_inter.h \
     connexion.h \
-    mainwindow.h \
+    mainwindow_acuucse.h \
     menu.h \
     qrcode.h \
     qrwidget.h \
-    stat_nb.h
+    stat_nb.h \
+    employer.h \
+    gestion_des_em.h \
+    smtp.h
 
 FORMS += \
     accuse_stat.ui \
     affaire_inter.ui \
     authentification.ui \
     avocat_inter.ui \
-    mainwindow.ui \
     mainwindow_acuucse.ui \
     menu.ui \
-    stat_nb.ui
+    stat_nb.ui \
+    gestion_des_em.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

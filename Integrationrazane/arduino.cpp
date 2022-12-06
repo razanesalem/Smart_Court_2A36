@@ -1,4 +1,8 @@
 #include "arduino.h"
+#include <QSqlQuery>
+#include <QSqlQueryModel>
+#include <QSqlDatabase>
+#include <QObject>
 
 Arduino::Arduino()
 {
@@ -79,3 +83,43 @@ int Arduino::write_to_arduino( QByteArray d)
 
 
 }
+QString Arduino::cherchercode(QString code){
+
+    QSqlDatabase bd = QSqlDatabase::database();
+QString matricule;
+        QSqlQuery query;
+        query.prepare("SELECT MATRICULE FROM EMPLOYER WHERE MATRICULE =:code");
+ query.bindValue(":code", code);
+
+        query.exec();
+        if (query.next())
+        {
+
+            matricule=query.value(0).toString();
+             return matricule;
+        }
+        else {
+            return NULL;
+        }
+
+}
+
+QString Arduino::chercher(QString code){
+
+   QSqlDatabase bd = QSqlDatabase::database();
+QString nom;
+       QSqlQuery query;
+       query.prepare("SELECT NOM FROM EMPLOYER WHERE MATRICULE =:code");
+query.bindValue(":code", code);
+
+       query.exec();
+       if (query.next())
+       {
+
+           nom=query.value(0).toString();
+            return nom;
+       }
+       else {
+           return "";
+       }
+   }

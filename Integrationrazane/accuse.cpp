@@ -157,7 +157,7 @@ QSqlQueryModel *accuse::afficher_accuse01()
 
     QSqlQueryModel* model1=new QSqlQueryModel();
 
-    qry1.prepare("SELECT NUMAFF FROM FAIRE");
+    qry1.prepare("SELECT NUMAFF FROM affaires");
     qry1.exec();
     model1->setQuery(qry1);
 
